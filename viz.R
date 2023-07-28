@@ -7,3 +7,7 @@ penguins %>%
 penguins %>% 
   ggplot(aes(x = bill_depth_mm)) +
   geom_histogram()
+
+penguins %>% 
+  ggplot(aes(x = bill_depth_mm)) +
+  geom_histogram()
